@@ -5,9 +5,6 @@ import 'package:sample_1/application/features/auth/widgets/animatedwave.dart';
 import 'package:simple_animations/animation_builder/mirror_animation_builder.dart';
 import 'package:simple_animations/movie_tween/movie_tween.dart';
 
-const teal1 = Color.fromARGB(255, 165, 250, 241);
-const pink1 = Color.fromARGB(255, 255, 171, 199);
-
 class Background extends StatelessWidget {
   const Background({super.key});
 

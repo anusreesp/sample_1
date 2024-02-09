@@ -1,7 +1,17 @@
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
-import 'package:sample_1/application/features/auth/login.dart';
+import 'package:sample_1/firebase_options.dart';
+import 'package:sample_1/startup.dart';
 
-void main() {
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+
+  await Firebase.initializeApp(
+    // name: 'test',
+
+    options: DefaultFirebaseOptions.currentPlatform,
+    // options: FirebaseOptions.fromPigeon();
+  );
   runApp(const MyApp());
 }
 
@@ -18,7 +28,8 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
       ),
       // home: const MyHomePage(title: 'Flutter Demo Home Page'),
-      home: LoginPage(),
+      // home: LoginPage(),
+      home: const AuthWrapper(),
     );
   }
 }

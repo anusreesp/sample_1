@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "900719762696",
+    "project_id": "her-safety",
+    "storage_bucket": "her-safety.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:900719762696:android:2f1bfba87e67a94ce6e0bd",
+        "android_client_info": {
+          "package_name": "com.example.sample_1"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAOFRMNaBrT35zQxcbJ1Xme5iK_a57Xzg8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
